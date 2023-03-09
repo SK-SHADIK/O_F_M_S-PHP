@@ -49,6 +49,10 @@
                <h3>Total Users</h3>
             </div>
             <div class="box">
+               <h3>6</h3>
+               <h3>Total Category</h3>
+            </div>
+            <div class="box">
                <h3>7</h3>
                <h3>Total Products</h3>
             </div>

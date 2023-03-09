@@ -23,7 +23,7 @@
     border-left: 2px solid #000;
     border-right: 2px solid #000;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .congtent-box {

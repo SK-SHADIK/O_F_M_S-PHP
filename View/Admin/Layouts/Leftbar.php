@@ -16,6 +16,7 @@
         <ul>
             <li><a href="./AdminDashboard.php">Dashboard</a></li>
             <li><a href="./Orders.php">Orders</a></li>
+            <li><a href="./category.php">Category</a></li>
             <li><a href="./Products.php">Products</a></li>
             <li><a href="./Users.php">User Details</a></li>
             <li><a href="./Profile.php">Profile</a></li>
