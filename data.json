@@ -1,20 +1,29 @@
 [
     {
-        "Full Name": "Sk",
-        "User Name": "sk",
-        "Email": "sk@gmail.com",
+        "Full Name": "Admin",
+        "User Name": "admin",
+        "Email": "admin@gmail.com",
         "Address": "Dhaka",
         "Contact Number": "01799405629",
         "Password": "$2y$10$F\/A2uA9vupxYlESJrP9WoOcZBpM9yMbGNGRbyQREATxmhDGyfEkU.",
         "Gender": "Male"
     },
     {
-        "Full Name": "Admin",
-        "User Name": "admin",
-        "Email": "admin@gmail.com",
+        "Full Name": "Tanjim",
+        "User Name": "tanjim",
+        "Email": "tanjim@gmail.com",
         "Address": "Dhaka",
         "Contact Number": "01785693575",
         "Password": "$2y$10$MXnU\/LXXH8uNRLO9ifqOZeKqM.85aLRS1Kly4cK1edvBM7BF1DSaC",
+        "Gender": "Male"
+    },
+    {
+        "Full Name": "Shariar",
+        "User Name": "shariar",
+        "Email": "shariar@gmail.com",
+        "Address": "Dhaka",
+        "Contact Number": "019633587469",
+        "Password": "$2y$10$GywjBZfNzyggU6weyUROXOLV6j1lgHoQ6k8kGoiAAPcn4eEtkl9G6",
         "Gender": "Male"
     }
 ]

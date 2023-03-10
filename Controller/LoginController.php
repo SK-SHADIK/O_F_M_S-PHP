@@ -21,6 +21,13 @@ class LoginUser{
 				if(password_verify($this->password, $user['Password'])){
 					session_start();
 					$_SESSION['email'] = $this->email;
+					header("location: ../View/Admin/AdminDashboard.php"); exit();
+				}
+			}
+			if($user['Email'] == "admin@gmail.com"){
+				if(password_verify($this->password, $user['Password'])){
+					session_start();
+					$_SESSION['email'] = $this->email;
 					header("location: ../View/User/UserDashboard.php"); exit();
 				}
 			}
