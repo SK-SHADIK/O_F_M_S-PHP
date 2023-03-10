@@ -65,6 +65,8 @@ class RegisterUser{
 		}
 	}
 
+	
+
 
 	private function emailExists(){
 		foreach($this->stored_users as $user){
@@ -76,9 +78,29 @@ class RegisterUser{
 		return false;
 	}
 
+	private function formetEmail (){
+		if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
+			$this->error = "Invalid Email Formet!!! Please Try Valid Formet";
+			return true;
+		}
+		  return false;
+	}
+
+	
+	private function formetUser (){
+		if (!preg_match("/^[a-z-' ]*$/",$this->uname)) {
+			$this->error = "Invalid User Name Formet!!! Only Small Letters & White Space Is Allowed";
+			return true;
+		  }
+		  return false;
+	}
+
+
+	
+
 
 	private function insertUser(){
-		if($this->emailExists() == FALSE){
+		if($this->emailExists() == FALSE && $this->formetEmail() == FALSE && $this->formetUser() == FALSE){
 			array_push($this->stored_users, $this->new_user);
 			if(file_put_contents($this->storage, json_encode($this->stored_users, JSON_PRETTY_PRINT))){
 				return $this->success = "Registration Successfully Done...";

@@ -63,9 +63,6 @@
                <label for="password">Password:</label>
                <input type="password" id="password" name="password" placeholder="Enter Password"><br><br> <hr> 
 
-               <label for="cpassword">Confirm Password:</label>
-               <input type="password" id="cpassword" name="cpassword" placeholder="Enter Confirm Password"><br><br>
-
            </fieldset>
             <fieldset>
             <legend>Gender</legend>
